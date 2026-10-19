@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Портфоліо Олексія — програмування, технології та творчість. Навички, майбутні проєкти й контакти.">
+  <title>Олексій — код і творчість</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="Олексій — на головну">о<span>.</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Відкрити меню"><span></span><span></span></button>
+    <nav id="navigation" aria-label="Головна навігація">
+      <a href="#about">Про мене</a><a href="#skills">Навички</a><a href="#projects">Проєкти</a><a class="nav-contact" href="#contact">Зв’язатися <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Привіт,<br>я <span>Олексій</span><span class="period">.</span></h1>
+        <p class="hero-lead">Між кодом <span class="amp">&</span> творчістю.</p>
+        <p class="hero-description">Досліджую технології, створюю для вебу<br class="desktop-break"> та знаходжу натхнення у звичайних речах.</p>
+        <a class="button primary" href="#projects">Мої проєкти <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="orbital" aria-hidden="true">
+        <div class="orbital-glow"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="core"><span>&lt;/&gt;</span></div>
+        <span class="floating-tag tag-js">JavaScript<span class="tag-dot"></span></span>
+        <span class="floating-tag tag-cs"><span class="tag-dot"></span>C#</span>
+        <span class="orbital-star star-one">+</span><span class="orbital-star star-two">+</span>
+      </div>
+      <div class="hero-bottom"><span class="small-note"><span class="status-dot"></span> Завжди відкритий до нових ідей</span><a href="#about" class="scroll-link">Гортай далі <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section class="about section container" id="about" aria-labelledby="about-title">
+      <div class="section-intro"><h2 id="about-title">Трохи про мене<span>.</span></h2><p>Цікавість — мій головний рушій.</p></div>
+      <div class="about-content"><p class="about-statement">Мені подобається розбиратися,<br>як усе працює.<br><span>І створювати щось своє.</span></p><div class="about-details"><p>Програмування для мене — спосіб перетворювати ідеї на речі, якими можна користуватися. Вивчаю нові технології, експериментую та крок за кроком розвиваю свої навички.</p><p>Поза редактором коду — фотографія та музика. Ловлю цікаві кадри, слухаю улюблені треки й помічаю деталі, які надихають на наступну ідею.</p><div class="interest-list"><span>Код</span><span>Технології</span><span>Фотографія</span><span>Музика</span></div></div></div>
+    </section>
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title"><div class="container">
+      <div class="section-intro"><h2 id="skills-title">Мій набір інструментів<span>.</span></h2><p>Технології, з якими вчуся й створюю.</p></div>
+      <div class="skills-list"><div class="skill"><span class="skill-symbol cs">C#</span><h3>C#</h3><p>Логіка та застосунки</p></div><div class="skill"><span class="skill-symbol js">JS</span><h3>JavaScript</h3><p>Інтерактивність у вебі</p></div><div class="skill"><span class="skill-symbol html">&lt;/&gt;</span><h3>HTML</h3><p>Структура та семантика</p></div><div class="skill"><span class="skill-symbol css">{ }</span><h3>CSS</h3><p>Стиль та анімація</p></div><div class="skill"><span class="skill-symbol wp">W</span><h3>WordPress</h3><p>Сайти та контент</p></div></div>
+    </div></section>
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-intro projects-intro"><div><h2 id="projects-title">Мої проєкти<span>.</span></h2><p>Підтримка сайтів, вебінструменти та розробка застосунків.</p></div><span class="outline-label">Напрями роботи</span></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art art-web art-radiology" aria-hidden="true">
+            <div class="mini-browser"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-layout"><div class="association-mark">ВАР<span>Українська асоціація<br>радіології</span></div><div class="mini-line"></div><div class="mini-line short"></div><div class="mini-button"></div></div><div class="scan-symbol"><i></i><i></i><i></i></div></div>
+            <span class="art-caption">uarctmrt.org · WordPress</span>
+          </div>
+          <div class="project-info"><span class="project-category">АДМІНІСТРУВАННЯ САЙТУ</span><h3><a class="project-link" href="https://www.uarctmrt.org/" target="_blank" rel="noopener noreferrer">Українська асоціація радіології (ВАР) <span aria-hidden="true">↗</span></a></h3><p>Адмініструю та підтримую сайт ВАР на WordPress: робота з контентом і поточними завданнями сайту.</p><div class="project-tags"><span>WordPress</span><span>Адміністрування</span><span>Підтримка</span></div></div>
+        </article>
+        <article class="project-card qr-project">
+          <div class="project-art art-qr" aria-hidden="true">
+            <div class="qr-workflow"><div class="file-formats"><span>CSV</span><span>JSON</span><span>XLSX</span></div><div class="qr-preview"><div class="qr-finder finder-one"></div><div class="qr-finder finder-two"></div><div class="qr-finder finder-three"></div><div class="qr-data"></div></div><div class="zip-output"><span class="zip-teeth"></span>ZIP</div></div>
+            <span class="art-caption">дані → QR-коди → архів</span>
+          </div>
+          <div class="project-info"><span class="project-category">ВЕБІНСТРУМЕНТ</span><h3>QR Generator</h3><p>Інструмент для створення QR-кодів, обробки файлів CSV, JSON та XLSX і формування ZIP-архівів.</p><div class="project-tags"><span>QR-коди</span><span>CSV / JSON</span><span>XLSX</span><span>ZIP</span></div><a class="qr-project-link" href="https://qrgenerator.uarctmrt.org/" target="_blank" rel="noopener noreferrer" aria-label="Відкрити генератор QR Generator (у новій вкладці)">Відкрити генератор <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-app art-dotnet" aria-hidden="true">
+            <div class="code-window"><span class="code-comment">// навчання через практику</span><br><span class="code-purple">using</span> System.Windows.Forms;<br><br><span class="code-purple">class</span> LearningApp : Form<br>{<br>&nbsp; <span class="code-purple">void</span> LoadData()<br>&nbsp; {<br>&nbsp; &nbsp; <span class="code-teal">database.Connect();</span><br>&nbsp; }<br>}</div><div class="database-symbol"><i></i><i></i><i></i></div><span class="code-corner">C#</span>
+          </div>
+          <div class="project-info"><span class="project-category">НАВЧАЛЬНІ ЗАСТОСУНКИ</span><h3>C# / .NET</h3><p>Створюю навчальні застосунки, працюю з WinForms і базами даних та вдосконалюю навички програмування.</p><div class="project-tags"><span>C#</span><span>.NET</span><span>WinForms</span><span>Бази даних</span></div></div>
+        </article>
+      </div>
+    </section>
+    <section class="contact section container" id="contact" aria-labelledby="contact-title"><div class="contact-panel"><div class="contact-light" aria-hidden="true"></div><h2 id="contact-title">Хороші ідеї починаються<br>з простого <span>«привіт».</span></h2><p>Є цікава ідея чи хочеться поспілкуватися? Напиши мені.</p><div class="contact-links"><a class="github-contact" href="https://github.com/Redrelife" target="_blank" rel="noopener noreferrer" aria-label="GitHub — Redrelife (у новій вкладці)"><span class="github-label"><svg class="github-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 1.72 2.64 1.22 3.28.93.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.56 0-1.23.44-2.23 1.16-3.02-.12-.29-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.15a10.8 10.8 0 0 1 5.64 0c2.15-1.45 3.1-1.15 3.1-1.15.61 1.55.23 2.69.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.32-2.63 5.28-5.14 5.56.4.35.76 1.04.76 2.1v3.08c0 .3.21.65.78.54A11.25 11.25 0 0 0 12 .75Z"/></svg>GitHub</span><span aria-hidden="true">↗</span></a><a href="https://t.me/redrelife" target="_blank" rel="noopener noreferrer">Telegram <span aria-hidden="true">↗</span></a><a href="mailto:sebastiyanmixaelis@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D1%96%D1%8F%20%D1%81%D0%BF%D1%96%D0%B2%D0%BF%D1%80%D0%B0%D1%86%D1%96">Email <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="footer container"><a class="logo" href="#home" aria-label="На головну">о<span>.</span></a><p>© <span id="year">2026</span> Олексій. Створено з цікавістю.</p><a href="#home">Нагору ↑</a></footer>
+</body>
+</html>
